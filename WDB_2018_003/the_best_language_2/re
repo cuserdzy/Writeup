@@ -1,0 +1,78 @@
+magic 03f30d0a
+moddate 6d4a695b (Tue Aug  7 15:29:49 2018)
+<code>
+   <argcount> 0 </argcount>
+   <nlocals> 0</nlocals>
+   <stacksize> 5</stacksize>
+   <flags> 0040</flags>
+   <code>
+      6400006401006c00005a00006400006402006c01006d02005a0200016400
+      006401006c03005a03006400006401006c04005a04006403005a05006404
+      008400005a06006405008400005a07006506006505006406002083010065
+      070065050064060064070021830100176506006505006407001f83010017
+      5a08006500006a090065080083010047486408005a080064010053
+   </code>
+   <names> ('base64', 'hashlib', 'md5', 'random', 'string', 'f', '_', '____', 'e', 'b64encode')</names>
+   <varnames> ()</varnames>
+   <freevars> ()</freevars>
+   <cellvars> ()</cellvars>
+   <filename> 're2.py'</filename>
+   <name> '<module>'</name>
+   <firstlineno> 1</firstlineno>
+   <consts>
+      -1
+      None
+      ('md5',)
+      'flag{*******}'
+      <code>
+         <argcount> 1 </argcount>
+         <nlocals> 4</nlocals>
+         <stacksize> 8</stacksize>
+         <flags> 0043</flags>
+         <code>
+            6401006a00007401006a02007403006a04006402008302008301007d0100
+            6401007d02007846007405007406007c0000830100830100445d32007d03
+            007c02007407007408007c00007c0300198301007408007c01007c030064
+            0200161983010041830100377d0200713700577c020053
+         </code>
+         <names> ('join', 'random', 'sample', 'string', 'digits', 'range', 'len', 'chr', 'ord')</names>
+         <varnames> ('b', '__', '___', 'i')</varnames>
+         <freevars> ()</freevars>
+         <cellvars> ()</cellvars>
+         <filename> 're2.py'</filename>
+         <name> '_'</name>
+         <firstlineno> 7</firstlineno>
+         <consts>
+            None
+            ''
+            4
+         </consts>
+         <lnotab> 00011e01060119013001</lnotab>
+      </code>
+      <code>
+         <argcount> 1 </argcount>
+         <nlocals> 2</nlocals>
+         <stacksize> 2</stacksize>
+         <flags> 0043</flags>
+         <code>
+            7400008300007d01007c01006a01007c0000830100017c01006a02008300
+            0053
+         </code>
+         <names> ('md5', 'update', 'digest')</names>
+         <varnames> ('a', '___')</varnames>
+         <freevars> ()</freevars>
+         <cellvars> ()</cellvars>
+         <filename> 're2.py'</filename>
+         <name> '____'</name>
+         <firstlineno> 14</firstlineno>
+         <consts>
+            None
+         </consts>
+         <lnotab> 000109010d01</lnotab>
+      </code>
+      12
+      19
+      'U1VQU05pSHdqCEJrQu7FS7Vngk1OTQ58qqghXmt2AUdrcFBBUEU='
+   </consts>
+   <lnotab> 0c0110010c010c020601090709052f010e01</lnotab>
+</code>

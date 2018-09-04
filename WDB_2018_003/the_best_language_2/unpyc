@@ -1,0 +1,29 @@
+# 2018.09.04 03:54:46 PDT
+#Embedded file name: re2.py
+import base64
+from hashlib import md5
+import random
+import string
+f = 'flag{*******}'
+
+def _(b):
+    __ = ''.join(random.sample(string.digits, 4))
+    ___ = ''
+    for i in range(len(b)):
+        ___ += chr(ord(b[i]) ^ ord(__[i % 4]))
+
+    return ___
+
+
+def ____(a):
+    ___ = md5()
+    ___.update(a)
+    return ___.digest()
+
+
+e = _(f[:12]) + ____(f[12:19]) + _(f[19:])
+print base64.b64encode(e)
+e = 'U1VQU05pSHdqCEJrQu7FS7Vngk1OTQ58qqghXmt2AUdrcFBBUEU='
++++ okay decompyling /home/cuser/Desktop/output 
+# decompiled 1 files: 1 okay, 0 failed, 0 verify failed
+# 2018.09.04 03:54:46 PDT
